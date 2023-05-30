@@ -1,6 +1,6 @@
 body {
     background-image: url(https://images.unsplash.com/photo-1534796636912-3b95b3ab5986?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1742&q=80);  
-    background-repeat: no-repea*
+    background-repeat: no-repea*;
     background-position: center; 
     background-size: cover; 
     font-family: "Syne", sans-serif;
@@ -17,7 +17,7 @@ body {
 .image-container {
   text-align: center;
   width: 100%;
-  color:;
+  color:black;
 }
 
 .links-container {
@@ -62,4 +62,15 @@ body {
 .w3-text-black {
   color: rgba(255, 204, 217) !important;
   background-color: rgba(0, 0, 0, 0.3) !important;
+}
+.button{
+  background-color: transparent;
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 50%;
 }
