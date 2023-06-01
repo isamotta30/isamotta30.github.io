@@ -109,4 +109,9 @@ a:link {
   display: flex;
   justify-content: center;
   max-height: 120px;
+  border-radius: 50%;
+}
+.container{
+  display: inline-flex;
+  
 }
