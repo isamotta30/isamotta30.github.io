@@ -6,21 +6,29 @@ body {
     font-family: "Syne", sans-serif;
   }
 
-.container {
+.estilo1 {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
 }
-
-.image-container {
+.name {
+  text-align: center;
+  width: 100%;
+  color:rgb(255, 255, 255);
+}
+.fonti{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: aliceblue;
+}
+.imagem {
   text-align: center;
   width: 100%;
   color:black;
 }
 
-.links-container {
+.links {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -60,25 +68,45 @@ a:link {
   }
 }
 
-.w3-white,
-.w3-hover-purple:hover,
-.w3-text-black {
-  color: rgba(255, 204, 217) !important;
+.white,
+.hover-purple:hover,
+.text-black {
+  color: rgb(255, 255, 255) !important;
   background-color: rgba(0, 0, 0, 0.3) !important;
 }
-.button{
-  transition-duration: 0.4s;
-  background-color: transparent;
+.button {
+  background-color: #2b2b2b; /* Green */
   border: none;
-  color: rgb(255, 255, 255);
-  padding: 15px 32px;
+  color: white;
+  padding: 16px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  border-radius: 50%;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 70px;
 }
-.button:hover{
-  background-color: blueviolet;
-  color: aliceblue;
+
+.button1 {
+  background-color: rgb(0, 0, 0); 
+  color: rgb(255, 255, 255); 
+  border: 2px solid #ff0090;
+}
+
+.button1:hover {
+  background-color: #4f0037;
+  color: white;
+}
+
+.botoescenter{
+  display: flex;
+  justify-content: center;
+}
+
+.limite img {
+  display: flex;
+  justify-content: center;
+  max-height: 120px;
 }
